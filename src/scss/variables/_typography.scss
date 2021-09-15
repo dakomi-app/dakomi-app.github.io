@@ -1,51 +1,18 @@
-// 
+//
 // Typography
-// 
+//
 
 // Override Bootstrap typography variables
 
-$font-family-base: "Mulish",
--apple-system,
-BlinkMacSystemFont,
-"Segoe UI",
-Roboto,
-"Helvetica Neue",
-Arial,
-sans-serif,
-"Apple Color Emoji",
-"Segoe UI Emoji",
-"Segoe UI Symbol",
-"Noto Color Emoji";
+$font-family-base: "Pretendard", -apple-system, sans-serif;
 
-$headings-font-family: "Newsreader",
--apple-system,
-BlinkMacSystemFont,
-"Segoe UI",
-Roboto,
-"Helvetica Neue",
-Arial,
-sans-serif,
-"Apple Color Emoji",
-"Segoe UI Emoji",
-"Segoe UI Symbol",
-"Noto Color Emoji";
+$headings-font-family: "Pretendard", -apple-system, sans-serif;
 
 // Custom font family
 
-$alt-font-family: "Kanit",
--apple-system,
-BlinkMacSystemFont,
-"Segoe UI",
-Roboto,
-"Helvetica Neue",
-Arial,
-sans-serif,
-"Apple Color Emoji",
-"Segoe UI Emoji",
-"Segoe UI Symbol",
-"Noto Color Emoji";
+$alt-font-family: "Pretendard", -apple-system, sans-serif;
 
 // Override default Bootstrap font weights
 
 $font-weight-normal: 500;
-$headings-font-weight: 600;
+$headings-font-weight: 700;
