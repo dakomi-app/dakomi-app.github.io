@@ -11640,6 +11640,15 @@ header.masthead .mb-5.mb-lg-0.text-center.text-lg-start p.lead.fw-normal.text-mu
   font-weight: 400 !important;
 }
 
+aside.text-center.bg-gradient-primary-to-secondary p.emoji {
+  font-size: 64px !important;
+}
+aside.text-center.bg-gradient-primary-to-secondary .h2.fs-1.text-black.mb-4 {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  line-height: 48px !important;
+}
+
 section#features p.feature-emoji {
   font-size: 64px !important;
 }
@@ -11648,15 +11657,6 @@ section#features h3.font-alt, section#features .font-alt.h3 {
 }
 section#features p.text-muted.mb-0 {
   font-weight: 400 !important;
-}
-
-aside.text-center.bg-gradient-primary-to-secondary p.emoji {
-  font-size: 64px !important;
-}
-aside.text-center.bg-gradient-primary-to-secondary .h2.fs-1.text-black.mb-4 {
-  font-size: 32px !important;
-  font-weight: 400 !important;
-  line-height: 48px !important;
 }
 
 section.bg-light h2.display-4.lh-1.mb-4, section.bg-light .display-4.lh-1.mb-4.h2 {
@@ -11669,4 +11669,8 @@ h2.text-center.text-white.font-alt.mb-4, .text-center.text-white.font-alt.mb-4.h
   color: #000 !important;
   font-weight: 700 !important;
   margin-bottom: 32px !important;
+}
+
+footer.bg-black.text-center.py-5 .mb-2 {
+  color: #68e183 !important;
 }

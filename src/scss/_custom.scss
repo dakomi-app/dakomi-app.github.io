@@ -32,6 +32,19 @@ header.masthead {
     }
 }
 
+// Quote/testimonial aside
+aside.text-center.bg-gradient-primary-to-secondary {
+    p.emoji {
+        font-size: 64px !important;
+    }
+
+    .h2.fs-1.text-black.mb-4 {
+        font-size: 32px !important;
+        font-weight: 700 !important;
+        line-height: 48px !important;
+    }
+}
+
 // App features section
 section#features {
     p.feature-emoji {
@@ -44,19 +57,6 @@ section#features {
 
     p.text-muted.mb-0 {
         font-weight: 400 !important;
-    }
-}
-
-// Quote/testimonial aside
-aside.text-center.bg-gradient-primary-to-secondary {
-    p.emoji {
-        font-size: 64px !important;
-    }
-
-    .h2.fs-1.text-black.mb-4 {
-        font-size: 32px !important;
-        font-weight: 400 !important;
-        line-height: 48px !important;
     }
 }
 
@@ -74,4 +74,11 @@ h2.text-center.text-white.font-alt.mb-4 {
     color: #000 !important;
     font-weight: 700 !important;
     margin-bottom: 32px !important;
+}
+
+// Footer
+footer.bg-black.text-center.py-5 {
+    .mb-2 {
+        color: $primary !important;
+    }
 }
