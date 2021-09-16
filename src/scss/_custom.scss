@@ -1,29 +1,77 @@
-// hero
-.mb-5.mb-lg-0.text-center.text-lg-start {
-    h1 {
+// global
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: #000 !important;
+}
+
+// Navigation
+nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.shadow-sm {
+    a.navbar-brand.fw-bold {
+        color: #000 !important;
+    }
+}
+
+// Mashead header
+header.masthead {
+    .mb-5.mb-lg-0.text-center.text-lg-start {
+        h1.display-1.lh-1.mb-3 {
+            font-size: 48px !important;
+            font-weight: 700 !important;
+            line-height: 64px !important;
+        }
+
+        p.lead.fw-normal.text-muted.mb-5 {
+            font-weight: 400 !important;
+        }
+    }
+}
+
+// App features section
+section#features {
+    p.feature-emoji {
+        font-size: 64px !important;
+    }
+
+    h3.font-alt {
+        font-weight: 700 !important;
+    }
+
+    p.text-muted.mb-0 {
+        font-weight: 400 !important;
+    }
+}
+
+// Quote/testimonial aside
+aside.text-center.bg-gradient-primary-to-secondary {
+    p.emoji {
+        font-size: 64px !important;
+    }
+
+    .h2.fs-1.text-black.mb-4 {
+        font-size: 32px !important;
+        font-weight: 400 !important;
+        line-height: 48px !important;
+    }
+}
+
+// Basic features section
+section.bg-light {
+    h2.display-4.lh-1.mb-4 {
         font-size: 48px !important;
-        font-weight: 500 !important;
+        font-weight: 700 !important;
         line-height: 64px !important;
     }
 }
 
-// green section
-.h2.fs-1.text-black.mb-4 {
-    font-size: 32px !important;
-    font-weight: 400 !important;
-    line-height: 48px !important;
-}
-
-// bottom
-h2.text-white.display-1.lh-1.mb-4 {
-    font-size: 48px !important;
-    font-weight: 500 !important;
-    line-height: 64px !important;
-}
-
-// app download
+// App badge section
 h2.text-center.text-white.font-alt.mb-4 {
     color: #000 !important;
-    font-weight: 500 !important;
+    font-weight: 700 !important;
     margin-bottom: 32px !important;
 }
