@@ -11610,3 +11610,27 @@ footer a:hover, footer a:active, footer a:focus {
     max-width: 17rem;
   }
 }
+
+.mb-5.mb-lg-0.text-center.text-lg-start h1, .mb-5.mb-lg-0.text-center.text-lg-start .h1 {
+  font-size: 48px !important;
+  font-weight: 500 !important;
+  line-height: 64px !important;
+}
+
+.h2.fs-1.text-black.mb-4 {
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  line-height: 48px !important;
+}
+
+h2.text-white.display-1.lh-1.mb-4, .text-white.display-1.lh-1.mb-4.h2 {
+  font-size: 48px !important;
+  font-weight: 500 !important;
+  line-height: 64px !important;
+}
+
+h2.text-center.text-white.font-alt.mb-4, .text-center.text-white.font-alt.mb-4.h2 {
+  color: #000 !important;
+  font-weight: 500 !important;
+  margin-bottom: 32px !important;
+}

@@ -8,12 +8,16 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title New Age - Start Bootstrap Theme
+        title 다코미: 함께하는 다꾸 라이브, Dakomi
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
         // Bootstrap icons
         link(href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css', rel='stylesheet')
+
+        // Google fonts
+        //- link(rel='preconnect', href='https://fonts.gstatic.com')
+        //- link(href='https://fonts.googleapis.com/css2?family=Jua&display=swap', rel='stylesheet')
 
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
@@ -41,13 +45,17 @@ html(lang='en')
                     .col-lg-6
                         // Mashead text and app badges
                         .mb-5.mb-lg-0.text-center.text-lg-start
-                            h1.display-1.lh-1.mb-3 다꾸 라이브 앱: 다코미
-                            p.lead.fw-normal.text-muted.mb-5 다코미는 캐릭터 크리에이터와 다이어리 꾸미기를 좋아하는 사람들을 위한 라이브 앱입니다. 나만의 멋진 창작 활동을 타인과 함께하며 수익을 창출할 수 있는 기회도 얻어보세요 🎉
-                            .d-flex.flex-column.flex-lg-row.align-items-center
-                                a.me-lg-3.mb-4.mb-lg-0(href='#!')
-                                    img.app-badge(src='assets/img/google-play-badge.svg', alt='...')
-                                a(href='#!')
-                                    img.app-badge(src='assets/img/app-store-badge.svg', alt='...')
+                            h1.display-1.lh-1.mb-3
+                                | 다꾸 라이브 앱 📚
+                                br
+                                | 다코미
+                            p.lead.fw-normal.text-muted.mb-5
+                                | 다코미는 캐릭터 크리에이터와 다이어리 꾸미기를 좋아하는 사람들을 위한 라이브 앱입니다. 나만의 멋진 창작 활동으로 수익을 창출할 수 있는 기회도 얻어보세요 🎉
+                            .d-flex.flex-column.flex-lg-row.align-items-center(onClick='alert("10월 앱 오픈 예정입니다.")')
+                                a.me-lg-3.mb-4.mb-lg-0(href='')
+                                    img.app-badge(src='assets/img/google-play-badge.svg', alt='구글 플레이 스토어')
+                                a(href='')
+                                    img.app-badge(src='assets/img/app-store-badge.svg', alt='애플 앱스토어')
                     .col-lg-6
                         // Masthead device mockup feature
                         .masthead-device-mockup
@@ -68,7 +76,10 @@ html(lang='en')
             .container.px-5
                 .row.gx-5.justify-content-center
                     .col-xl-8
-                        .h2.fs-1.text-black.mb-4 내가 좋아하는 다꾸러들에게 후원도 하고, 내가 직접 다꾸 라이브를 열어서 후원을 통한 수익을 얻을 수도 있어요.
+                        .h2.fs-1.text-black.mb-4
+                            | 좋아하는 다꾸러들에게 후원도 하고,
+                            br
+                            | 직접 다꾸 라이브를 열어서 후원을 통한 수익을 얻을 수도 있어요.
 
         // App features section
         section#features
@@ -81,27 +92,27 @@ html(lang='en')
                                     // Feature item
                                     .text-center
                                         i.bi-phone.icon-feature.text-gradient.d-block.mb-3
-                                        h3.font-alt Device Mockups
-                                        p.text-muted.mb-0 Ready to use HTML/CSS device mockups, no Photoshop required!
+                                        h3.font-alt 손쉬운 라이브
+                                        p.text-muted.mb-0 창작을 펼칠 작은 공간과 스마트폰만 있으면, 바로 라이브를 시작할 수 있어요.
                                 .col-md-6.mb-5
                                     // Feature item
                                     .text-center
-                                        i.bi-camera.icon-feature.text-gradient.d-block.mb-3
-                                        h3.font-alt Flexible Use
-                                        p.text-muted.mb-0 Put an image, video, animation, or anything else in the screen!
+                                        i.bi-chat-dots.icon-feature.text-gradient.d-block.mb-3
+                                        h3.font-alt 다꾸 커뮤니티
+                                        p.text-muted.mb-0 커뮤니티를 통해 다양한 다꾸템 하울과 정보들을 보고 공유할 수 있어요.
                             .row
                                 .col-md-6.mb-5.mb-md-0
                                     // Feature item
                                     .text-center
                                         i.bi-gift.icon-feature.text-gradient.d-block.mb-3
-                                        h3.font-alt Free to Use
-                                        p.text-muted.mb-0 As always, this theme is free to download and use for any purpose!
+                                        h3.font-alt 라이브 키트
+                                        p.text-muted.mb-0 초기 크리에이터 분들께는, 다꾸 라이브 진행을 위한 라이브 키트를 제공해드려요.
                                 .col-md-6
                                     // Feature item
                                     .text-center
-                                        i.bi-patch-check.icon-feature.text-gradient.d-block.mb-3
-                                        h3.font-alt Open Source
-                                        p.text-muted.mb-0 Since this theme is MIT licensed, you can use it commercially!
+                                        i.bi-cash-coin.icon-feature.text-gradient.d-block.mb-3
+                                        h3.font-alt 라이브 후원
+                                        p.text-muted.mb-0 다꾸 라이브를 열어서, 후원을 통한 수익을 얻을 수도 있어요.
                     .col-lg-4.order-lg-0
                         // Features section device mockup
                         .features-device-mockup
@@ -133,31 +144,32 @@ html(lang='en')
             .cta-content
                 .container.px-5
                     h2.text-white.display-1.lh-1.mb-4
-                        | Stop waiting.
+                        | 함께하는 다꾸로
                         br
-                        | Start building.
-                    a.btn.btn-outline-light.py-3.px-4.rounded-pill(href='https://startbootstrap.com/theme/new-age', target='_blank') Download for free
+                        | 더욱 즐거운 창작활동을
+                    a.btn.btn-outline-light.py-3.px-4.rounded-pill(onClick='alert("10월 앱 오픈 예정입니다.")', target='_blank') 다코미 앱 다운받기
 
         // App badge section
         section#download.bg-gradient-primary-to-secondary
             .container.px-5
-                h2.text-center.text-white.font-alt.mb-4 Get the app now!
-                .d-flex.flex-column.flex-lg-row.align-items-center.justify-content-center
-                    a.me-lg-3.mb-4.mb-lg-0(href='#!')
-                        img.app-badge(src='assets/img/google-play-badge.svg', alt='...')
-                    a(href='#!')
-                        img.app-badge(src='assets/img/app-store-badge.svg', alt='...')
+                h2.text-center.text-white.font-alt.mb-4
+                    | 다코미 앱 다운받기
+                .d-flex.flex-column.flex-lg-row.align-items-center.justify-content-center(onClick='alert("10월 앱 오픈 예정입니다.")')
+                    a.me-lg-3.mb-4.mb-lg-0(href='')
+                        img.app-badge(src='assets/img/google-play-badge.svg', alt='구글 플레이 스토어')
+                    a(href='')
+                        img.app-badge(src='assets/img/app-store-badge.svg', alt='애플 앱스토어')
 
         // Footer
         footer.bg-black.text-center.py-5
             .container.px-5
                 .text-white-50.small
                     .mb-2 &copy; Your Website 2021. All Rights Reserved.
-                    a(href='#!') Privacy
+                    a(href='') Privacy
                     span.mx-1 &middot;
-                    a(href='#!') Terms
+                    a(href='') Terms
                     span.mx-1 &middot;
-                    a(href='#!') FAQ
+                    a(href='') FAQ
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js')
