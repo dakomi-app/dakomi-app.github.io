@@ -82,3 +82,18 @@ footer.bg-black.text-center.py-5 {
         color: $primary !important;
     }
 }
+
+// Kakao button
+div.kakao {
+    z-index: 99999;
+    right: 16px;
+    bottom: 24px;
+    position: fixed;
+    width: 56px;
+    height: 56px;
+
+    img {
+        cursor: pointer;
+        border-radius: 100%;
+    }
+}

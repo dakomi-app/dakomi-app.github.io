@@ -11674,3 +11674,16 @@ h2.text-center.text-white.font-alt.mb-4, .text-center.text-white.font-alt.mb-4.h
 footer.bg-black.text-center.py-5 .mb-2 {
   color: #68e183 !important;
 }
+
+div.kakao {
+  z-index: 99999;
+  right: 16px;
+  bottom: 24px;
+  position: fixed;
+  width: 56px;
+  height: 56px;
+}
+div.kakao img {
+  cursor: pointer;
+  border-radius: 100%;
+}
