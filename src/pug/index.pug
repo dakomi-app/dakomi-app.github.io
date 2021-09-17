@@ -1,9 +1,11 @@
 doctype html
 html(lang='ko-KR')
-
+    //- <head>
     head
 
         meta(charset='utf-8')
+        meta(httpEquiv="X-UA-Compatible" content="IE=edge")
+
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
         meta(name='description', content='다코미: 함께하는 다꾸 라이브, Dakomi')
         meta(name='author', content='다코미 Dakomi')
@@ -19,20 +21,17 @@ html(lang='ko-KR')
         include includes/meta-og-tags
         include includes/facebook-pixel
 
-        // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
-        meta(name="theme-color" content="#fff")
-
-    body#page-top
+    //- <body>
+    body
 
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.shadow-sm
             .container.px-5
-                a.navbar-brand.fw-bold(href='#page-top') Dakomi
+                a.navbar-brand.fw-bold(href='#') Dakomi
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
-                    i.bi-list
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto.me-4.my-3.my-lg-0
                         li.nav-item
