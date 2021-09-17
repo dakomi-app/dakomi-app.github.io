@@ -1,7 +1,7 @@
 /*!
-* Start Bootstrap - New Age v6.0.4 (https://startbootstrap.com/theme/new-age)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/LICENSE)
+* Start Bootstrap - Dakomi v1.0.0 (https://dakomi-app.github.io/)
+* Copyright 2013-2021 Volla Inc.
+* Licensed under MIT (https://github.com/StartBootstrap/dakomi-app.github.io/blob/master/LICENSE)
 */
 //
 // Scripts
