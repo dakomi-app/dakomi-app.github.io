@@ -1,7 +1,7 @@
 {
-    "title": "New Age",
-    "name": "startbootstrap-new-age",
-    "version": "6.0.4",
+    "title": "Dakomi",
+    "name": "dakomi-app.github.io",
+    "version": "1.0.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets && ./generate-seo-files.sh",
         "build:assets": "node scripts/build-assets.js",
@@ -12,28 +12,20 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A one page app landing page HTML theme for Bootstrap.",
+    "description": "다코미: 함께하는 다꾸 라이브, Dakomi",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "Dakomi"
     ],
-    "homepage": "https://startbootstrap.com/theme/new-age",
+    "homepage": "https://dakomi-app.github.io/",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-new-age/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/dakomi-app/dakomi-app.github.io/issues",
+        "email": "support@volla.live"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (https://davidmiller.io/)"
-    ],
+    "author": "Volla Inc.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-new-age.git"
+        "url": "https://github.com/dakomi-app/dakomi-app.github.io.git"
     },
     "dependencies": {
         "bootstrap": "5.1.0"
