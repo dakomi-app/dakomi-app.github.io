@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://dakomi-app.github.io/sitemap.xml
