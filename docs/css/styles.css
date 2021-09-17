@@ -11313,25 +11313,10 @@ section {
   padding-bottom: 1rem;
   background-color: #fff;
 }
-#mainNav .navbar-brand {
-  font-family: "Pretendard", -apple-system, sans-serif;
-}
-#mainNav .navbar-brand:hover, #mainNav .navbar-brand:active {
-  color: #68e183;
-}
 #mainNav .navbar-toggler {
   font-size: 0.875rem;
   padding: 0.75rem 1rem;
   color: #212529;
-}
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: #212529;
-}
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #6c757d;
-}
-#mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #68e183;
 }
 
 .device-wrapper {
@@ -11491,12 +11476,7 @@ section {
   }
 }
 footer a {
-  color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
-}
-footer a:hover, footer a:active, footer a:focus {
-  color: rgba(255, 255, 255, 0.75);
-  text-decoration: underline;
 }
 
 .masthead {
