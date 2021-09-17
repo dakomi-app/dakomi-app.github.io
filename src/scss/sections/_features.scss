@@ -2,19 +2,16 @@
 // Features
 //
 
-// Styling for the features icons
 .icon-feature {
     font-size: 4rem;
 }
 
-// Styling for the iPhone X mockup in the features section
 .features-device-mockup {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 
-    // SVG that sits behind the phone mockup
     .circle {
         position: absolute;
         left: 0;
@@ -31,7 +28,6 @@
         }
     }
 
-    // First shape to the bottom left of the mockup
     .shape-1 {
         position: absolute;
         height: 1rem;
@@ -43,7 +39,6 @@
         right: 10%;
     }
 
-    // Second shape to the top right of the mockup
     .shape-2 {
         position: absolute;
         height: 0.75rem;
@@ -54,13 +49,11 @@
         left: 10%;
     }
 
-    // Set a max width for the device mockup on smallest screen sizes
     .device-wrapper {
         max-width: 10rem;
     }
 }
 
-// Sizing for the device and SVG background circle (sm screen size breakpoint)
 @include media-breakpoint-up(sm) {
     .features-device-mockup {
         .circle {
@@ -75,7 +68,6 @@
     }
 }
 
-// Sizing for the device and SVG background circle (md screen size breakpoint)
 @include media-breakpoint-up(md) {
     .features-device-mockup {
         .circle {
@@ -89,7 +81,6 @@
     }
 }
 
-// Sizing for the device and SVG background circle (lg screen size breakpoint)
 @include media-breakpoint-up(lg) {
     .features-device-mockup {
         .circle {
@@ -114,7 +105,6 @@
     }
 }
 
-// Sizing for the device and SVG background circle (xl screen size breakpoint)
 @include media-breakpoint-up(xl) {
     .features-device-mockup {
         .circle {
@@ -133,7 +123,6 @@
     }
 }
 
-// Sizing for the device and SVG background circle (xxl screen size breakpoint)
 @include media-breakpoint-up(xxl) {
     .features-device-mockup {
         .circle {

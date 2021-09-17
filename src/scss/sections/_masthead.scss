@@ -4,18 +4,15 @@
 
 .masthead {
     background-color: $gray-100;
-    // Set top padding to 5rem plus the height of the fixed navbar
     padding-top: 5rem + 4.5rem;
     padding-bottom: 5rem;
 
-    // Styling for the iPhone X mockup in the masthead
     .masthead-device-mockup {
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
 
-        // SVG that sits behind the phone mockup
         .circle {
             position: absolute;
             fill: url(#circleGradient);
@@ -31,7 +28,6 @@
             }
         }
 
-        // First shape to the bottom left of the mockup
         .shape-1 {
             position: absolute;
             height: 1rem;
@@ -43,7 +39,6 @@
             left: 10%;
         }
 
-        // Second shape to the top right of the mockup
         .shape-2 {
             position: absolute;
             height: 0.75rem;
@@ -54,13 +49,11 @@
             right: 10%;
         }
 
-        // Set a max width for the device mockup on smallest screen sizes
         .device-wrapper {
             max-width: 10rem;
         }
     }
 
-    // Sizing for the device and SVG background circle (sm screen size breakpoint)
     @include media-breakpoint-up(sm) {
         .masthead-device-mockup {
             .circle {
@@ -74,7 +67,6 @@
         }
     }
 
-    // Sizing for the device and SVG background circle (md screen size breakpoint)
     @include media-breakpoint-up(md) {
         .masthead-device-mockup {
             .circle {
@@ -87,7 +79,6 @@
         }
     }
 
-    // Sizing for the device and SVG background circle (lg screen size breakpoint)
     @include media-breakpoint-up(lg) {
         .masthead-device-mockup {
             .circle {
@@ -100,7 +91,6 @@
         }
     }
 
-    // Sizing for the device and SVG background circle (xl screen size breakpoint)
     @include media-breakpoint-up(xl) {
         .masthead-device-mockup {
             .circle {
@@ -113,7 +103,6 @@
         }
     }
 
-    // Sizing for the device and SVG background circle (xxl screen size breakpoint)
     @include media-breakpoint-up(xxl) {
         .masthead-device-mockup {
             .circle {
