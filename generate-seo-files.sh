@@ -15,9 +15,12 @@ echo "============================================================${RESET}"
 
 # regenerate sitemap
 printf "\n"
-echo "${BOLD}${PURPLE}🔥 Generate SEO related files 🔥${RESET}"
+echo "${BOLD}${RED}Generating SEO related files...${RESET}"
+echo "..."
 
 cd src && cd scripts && node generate-sitemap.js && node generate-robots.js
 cd .. && cd ..
-printf "\n"
 
+echo "${BOLD}${GREEN}🔥 SEO related files generated! 🔥${RESET}"
+printf "\n"
+printf "\n"
