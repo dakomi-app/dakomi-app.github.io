@@ -6,6 +6,7 @@ h4,
 h5,
 h6,
 p,
+span,
 a {
     color: #000 !important;
 }
@@ -79,7 +80,14 @@ h2.text-center.text-white.font-alt.mb-4 {
 // Footer
 footer.bg-black.text-center.py-5 {
     .mb-2 {
-        color: $primary !important;
+        color: #fff !important;
+        font-weight: 300 !important;
+    }
+
+    a[rel="noreferrer noopener"] {
+        padding: 8px;
+        display: inline-block;
+        margin: 8px auto 32px;
     }
 }
 

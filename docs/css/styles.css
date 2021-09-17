@@ -11393,27 +11393,6 @@ section {
   height: 100%;
 }
 
-section.cta {
-  position: relative;
-  padding: 15rem 0;
-  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
-  background-position: center;
-  background-size: cover;
-}
-section.cta .cta-content {
-  position: relative;
-  z-index: 1;
-}
-section.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
-
 .icon-feature {
   font-size: 4rem;
 }
@@ -11623,6 +11602,7 @@ h5,
 h6,
 .h6,
 p,
+span,
 a {
   color: #000 !important;
 }
@@ -11672,7 +11652,13 @@ h2.text-center.text-white.font-alt.mb-4, .text-center.text-white.font-alt.mb-4.h
 }
 
 footer.bg-black.text-center.py-5 .mb-2 {
-  color: #68e183 !important;
+  color: #fff !important;
+  font-weight: 300 !important;
+}
+footer.bg-black.text-center.py-5 a[rel="noreferrer noopener"] {
+  padding: 8px;
+  display: inline-block;
+  margin: 8px auto 32px;
 }
 
 div.kakao {
