@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "다코미: 함께하는 다꾸 라이브, Dakomi",
+    "description": "다코미: 세상의 모든 다꾸 이야기, Dakomi",
     "keywords": [
         "Dakomi"
     ],
